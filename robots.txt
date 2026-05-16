@@ -1,0 +1,7 @@
+# GODREJ KADA AGRAHARA ROBOTS.TXT
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /backend/
+
+Sitemap: https://godrej-kadaagrahara.com/sitemap.xml
