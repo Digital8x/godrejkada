@@ -37,8 +37,8 @@ cron.schedule('30 3 * * *', async () => {
         await transporter.sendMail({
             from: '"System Monitor" <admin@example.com>',
             to: adminEmail,
-            subject: '✅ Godrej Vanantara Daily Report: Success',
-            text: '✅ Godrej Vanantara Daily Report: Server and Database are working perfectly.'
+            subject: '✅ Godrej Kada Agrahara Daily Report: Success',
+            text: '✅ Godrej Kada Agrahara Daily Report: Server and Database are working perfectly.'
         });
         console.log('Success report sent.');
     } catch (error) {
@@ -48,8 +48,8 @@ cron.schedule('30 3 * * *', async () => {
         await transporter.sendMail({
             from: '"System Monitor" <admin@example.com>',
             to: adminEmail,
-            subject: '🚨 Godrej Vanantara Daily Report: FAILURE',
-            text: '🚨 Godrej Vanantara Daily Report: Server is UP but DATABASE IS DOWN. Please check!\n\nError details: ' + error.message
+            subject: '🚨 Godrej Kada Agrahara Daily Report: FAILURE',
+            text: '🚨 Godrej Kada Agrahara Daily Report: Server is UP but DATABASE IS DOWN. Please check!\n\nError details: ' + error.message
         });
         console.log('Failure report sent.');
     }

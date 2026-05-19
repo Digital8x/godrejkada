@@ -29,7 +29,7 @@ INSERT INTO `settings` (`meta_key`, `meta_value`) VALUES
 ('smtp_user', 'leads@shivabihani.com'),
 ('smtp_pass', '={3)%J6b1mh7'),
 ('smtp_port', '465'),
-('smtp_from_name', 'Godrej Vanantara Leads'),
+('smtp_from_name', 'Godrej Kada Agrahara Leads'),
 ('cc_emails', 'binodbihanij@yahoo.com,henry_siva@outlook.com'),
 ('admin_email', 'harshmheswry@gmail.com,diyarjun9@gmail.com')
 ON DUPLICATE KEY UPDATE `meta_value` = VALUES(`meta_value`);

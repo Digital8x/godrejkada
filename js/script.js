@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const formData = new FormData(this);
                 formData.set('phone', iti.getNumber());
-                if(!formData.get('project')) formData.set('project', 'Godrej Vanantara General');
+                if(!formData.get('project')) formData.set('project', 'Godrej Kada Agrahara General');
 
                 const btn = this.querySelector('.btn-submit');
                 const oldText = btn.innerHTML;

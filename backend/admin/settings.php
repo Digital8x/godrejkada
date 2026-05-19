@@ -84,7 +84,7 @@ while($row = $settings_result->fetch_assoc()) {
                     </div>
                     <div class="col-md-6 mb-4">
                         <label class="form-label">SMTP From Name</label>
-                        <input type="text" name="smtp_from_name" class="form-control" value="<?= $config['smtp_from_name'] ?? 'Godrej Vanantara Leads' ?>" placeholder="e.g. Sales Team">
+                        <input type="text" name="smtp_from_name" class="form-control" value="<?= $config['smtp_from_name'] ?? 'Godrej Kada Agrahara Leads' ?>" placeholder="e.g. Sales Team">
                     </div>
                     <div class="col-md-6 mb-4">
                         <label class="form-label">CC Emails (Comma separated)</label>

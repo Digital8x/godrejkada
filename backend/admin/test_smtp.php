@@ -41,7 +41,7 @@ try {
     $mail->addAddress($primary_to);
     
     $mail->isHTML(false);
-    $mail->Subject = "SMTP Test Connection | Godrej Vanantara";
+    $mail->Subject = "SMTP Test Connection | Godrej Kada Agrahara";
     $mail->Body    = "Congratulations! Your PHPMailer SMTP settings are working perfectly.\n\nSent from: " . $_SERVER['HTTP_HOST'];
 
     $mail->send();

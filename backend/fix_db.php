@@ -1,7 +1,7 @@
 <?php
 require_once 'db_config.php';
 
-echo "<h2>Godrej Vanantara Database Fix</h2>";
+echo "<h2>Godrej Kada Agrahara Database Fix</h2>";
 
 // Add Browser column
 $sql = "ALTER TABLE leads ADD COLUMN browser VARCHAR(100) AFTER device_type";
